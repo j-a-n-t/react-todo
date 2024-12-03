@@ -1,0 +1,61 @@
+.container {
+    background: white;
+    border-radius: 20px;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: center;
+}
+
+.cardBody {
+    align-items: start;
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
+.cardStatus {
+    cursor: pointer;
+    padding: 0 25px;
+    font-size: 2rem;
+}
+
+.cardStatus::after {
+    content: "";
+}
+
+.cardTitle {
+    background: linear-gradient(292deg, rgb(163, 14, 206) 40%, rgb(246, 0, 94) 100%);
+    background-clip: text;
+    color: transparent;
+    font-size: 1.8rem;
+    font-weight: lighter;
+    margin: 0 0 10px 0;
+}
+
+.cardButton {
+    background: linear-gradient(292deg, rgb(163, 14, 206) 40%, rgb(246, 0, 94) 100%);
+    border-radius: 15px;
+    border: none;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: lighter;
+    outline: none;
+    padding: 10px;
+    text-transform: uppercase;
+    transition: width .5s ease-in;
+    width: 150px;
+}
+
+.cardButton:hover {
+    background: rgb(1, 134, 54);
+    transition: width .5s ease-in;
+    width: 200px;
+}
+
+.underlinedText {
+    text-decoration: line-through;
+    color: #9f9f9f;
+}

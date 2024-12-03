@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    height: 100%;
+    padding: 10px;
+}
+
+.title {
+    background: linear-gradient(292deg, rgb(163, 14, 206) 20%, rgb(246, 0, 94) 100%);
+    background-clip: text;
+    color: transparent;
+    font-size: 2rem;
+    font-weight: lighter;
+    text-transform: uppercase;
+}
+
+.inputContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+.inputLabel {
+    padding: 5px 0;
+    font-size: 1.4rem;
+    cursor: pointer;
+}
+
+.input {
+    width: 100%;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    outline: none;
+}
+
+.input:focus {
+    outline: solid 2px #545454;
+}
+
+.input::placeholder {
+    font-size: 1rem;
+    padding: 5px;
+    text-transform: uppercase;
+}
+
+.button {
+    background: linear-gradient(292deg, rgb(163, 14, 206) 40%, rgb(246, 0, 94) 100%);
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    padding: 12px;
+    transition: width .5s;
+    width: 150px;
+}
+
+.button:hover {
+    background: linear-gradient(292deg, rgb(163, 14, 206) 70%, rgb(246, 0, 94) 100%);
+    transition: width .5s;
+    width: 200px;
+}

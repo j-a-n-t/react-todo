@@ -1,0 +1,10 @@
+.container {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+    height: 80vh;
+    margin: auto;
+    padding: 1rem 0.5rem;
+    width: 70%;
+}
